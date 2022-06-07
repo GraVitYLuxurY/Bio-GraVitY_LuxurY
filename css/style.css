@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;0.800;1,300&display=swap');
+
+/* Page */
+body  {
+    background-color: #18191C
+}
+
+h1 {
+    display: table-cell;
+    vertical-align: middle;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    color: #4E66F1
+}
+
+p{
+    margin-left: 20px;
+	margin-right: 20px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 12px;
+    color: #FFFFFF
+}
+
+.title {
+    margin-top: 18px;
+    margin-bottom: 10px;
+
+    text-align: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #4E66F1
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    background: #1e1f22;
+
+    text-align: center
+}
+
+/* Discord */
+.imgDiscord {
+    margin-left: auto;
+    margin-right: auto;
+
+    position: absolute; 
+    display: block;
+    top: 8px; 
+    right: 15px;
+
+    width: 12%;
+    height: 7%;
+
+    max-width: 100%;
+    max-height: 100%;
+
+    opacity: 75%;
+
+    transition: 0.75s
+}
+
+.imgDiscord:hover {
+    opacity: 100%;
+
+    transition: 0.75s
+}
+
+/* Profile */
+.profile {
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 5px;
+    padding-bottom: 3px;
+
+    display: block;
+	width: 40%;
+    border-radius: 15px;
+    background: #23272B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    transition: 0.75s
+}
+
+.profile:hover {
+    width: 42%;
+    transition: 0.75s
+}
+
+.profile .user .username {
+	color: #f04c4c
+}
+
+.network {
+    position: absolute;
+    display: block
+}
+
+.linkNetwork {
+    text-decoration: none
+}
+
+.imgNetwork {
+    margin: 0 1px;
+
+    width: 3%;
+    height: 3%;
+    opacity: 50%;
+
+    transition: 0.75s
+}
+
+.imgNetwork:hover {
+    opacity: 100%;
+
+    transition: 0.75s
+}
+
+/* Skill & Project */
+.skillProjectsGlobal {
+    display: flex;
+}
+
+.skillProject {
+    margin-right: 5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+	width: 16%;
+    border-radius: 12px;
+    background: #23272B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    transition: 0.75s
+}
+
+.skillProject:hover {
+    background: #4E66F1;
+
+    transition: 0.75s
+}
+
+/* Work */
+.workGlobal {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between
+}
+
+.work {
+    margin-right: 5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+	width: 19%;
+    border-radius: 12px;
+    background: #23272B;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    transition: 0.75s
+}
+
+.work:hover {
+    background: #4E66F1;
+
+    transition: 0.75s
+}
+
+.date {
+    margin-right: 10px;
+
+    padding-top: 10px;
+
+    text-align: right;
+    border: none;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #ffffff
+}
+
+.type {
+	font-size: 13px;
+    color: #AFADAD
+}
+
+/* User */
+.user {
+    margin: 0 2px
+}
+
+.avatar {
+    margin: 2px 5px;
+    float: left;
+
+    width: 40px;
+    height: 40px;
+    border-radius: 15%;
+
+    transition: 0.75s
+}
+
+.username {
+    font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	color: #FFFFFF
+}
